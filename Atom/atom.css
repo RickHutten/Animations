@@ -1,10 +1,20 @@
 body {
     margin: 0;
-    height: 5000px;
+    height: 3500px;
 }
 
-canvas {
+#atomCanvas {
     position: fixed;
     left: 200px;
+    top: 275px;
+}
+
+#textholder {
+    width: 45%;
+    right: 0;
+    position: absolute;
+    margin-right: 7%;
     top: 200px;
+    font-size: 20px;
+    line-height: 1.5em;
 }
